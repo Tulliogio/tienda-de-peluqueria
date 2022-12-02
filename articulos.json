@@ -1,0 +1,60 @@
+{
+     "productos": [
+          {
+               "codigo": "6BE61EA",
+               "descripcion": "CERALINE",
+               "stock": "5",
+               "precio": "235",
+               "foto": "Ceraline.jpg"
+          },
+          {
+               "codigo": "GB-MTC-DC-4100",
+               "descripcion": "ESSENSITY PERMANENT COLOR",
+               "stock": "3",
+               "precio": "243",
+               "foto": "essensity permanent color.jpg"
+          },
+          {
+               "codigo": "GB-MHTFX-R3-4100",
+               "descripcion": "L'OREAL INOA",
+               "stock": "6",
+               "precio": "275",
+               "foto": "l'oreal inoa tinte 6.3.jpg"
+          },
+          {
+               "codigo": "GB-MTC-I3F-8240",
+               "descripcion": "MOSER BROCHA",
+               "stock": "2",
+               "precio": "352",
+               "foto": "moser broncha.png"
+          },
+          {
+               "codigo": "GB-MHTFX-I3F-8240",
+               "descripcion": "MOSER PROFESSIONAL",
+               "stock": "4",
+               "precio": "361",
+               "foto": "moser professional.png"
+          },
+          {
+               "codigo": "GB-MHTFX-R5-4100",
+               "descripcion": "MOSER TINTACURL",
+               "stock": "1",
+               "precio": "375",
+               "foto": "moser tintacurl.png"
+          },
+          {
+               "codigo": "GB-MTC-DC-4100-W10P",
+               "descripcion": "MY STILE BEAUTY",
+               "stock": "1",
+               "precio": "385",
+               "foto": "mystilebeauty.png"
+          },
+          {
+               "codigo": "6BE61EA-W10P",
+               "descripcion": "REVLON TINTE",
+               "stock": "1",
+               "precio": "395",
+               "foto": "revlon tinte.jpg"
+          }
+     ]
+}

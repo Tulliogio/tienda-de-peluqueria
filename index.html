@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+
+<body>
+     <div class="topnav">
+          <a class="active" href="home.html">Home</a>
+          <a href="formulario.html">Contact</a>
+          <a href="index.html">Products</a>
+     </div>
+
+     <style>
+          .topnav {
+               background-color: #333;
+               overflow: hidden;
+          }
+
+          .topnav a {
+               float: left;
+               color: #f2f2f2;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+               font-size: 17px;
+          }
+
+          .topnav a:hover {
+               background-color: #ddd;
+               color: black;
+          }
+
+          .topnav a.active {
+               background-color: #4CAF50;
+               color: white;
+          }
+
+          html {
+               background-color: pink;
+          }
+     </style>
+
+     <h2 id="titulo">Productos de peluqueria</h2>
+     <label id="subtitulo" for="filtro">Dato a buscar :</label>
+     <input type="text" name="filtro" id="f" onkeyup="filtrar()" style="text-transform: uppercase;">
+     <table id="lista-articulos">
+          <thead id="titulos">
+               <tr>
+                    <th id="codigo" scope="col">Codigo</th>
+                    <th id="descripcion" scope="col">Descripcion</th>
+                    <th id="stock" scope="col">Stock</th>
+                    <th id="precio" scope="col">Precio</th>
+               </tr>
+          </thead>
+     </table>
+     <img id="imagen">
+     <script src="carga.js"></script>
+     <footer>
+          <nav>
+               <ul>
+                    <li><img src="banderas/english.jpg" width="20px" height="20px" onclick="cambiaidioma('en')"
+                              alt=""><a id="en" href="#" onclick="cambiaidioma('en')">English</a></li>
+                    <li><img src="banderas/france.png" width="20px" height="20px" alt=""><a id="fr" href="#"
+                              onclick="cambiaidioma('fr')">French</a></li>
+                    <li><img src="banderas/spanish.jpg" width="20px" height="20px" alt=""><a id="es" href="#"
+                              onclick="cambiaidioma('es')">Spanish</a></li>
+               </ul>
+          </nav>
+     </footer>
+
+</body>
+
+</html>

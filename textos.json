@@ -1,0 +1,46 @@
+{
+     "idiomas": [
+          {
+               "idioma": "es",
+               "titulo": "Productos de peluqueria",
+               "subtitulo": "Dato a buscar",
+               "codigo": "Código",
+               "descripcion": "Descripción",
+               "stock": "Stock",
+               "precio": "Precio",
+               "nombre": "Nombre",
+               "apellido": "Apellido",
+               "direccion": "Direccion",
+               "pais": "Pais",
+               "correo": "Correo"
+          },
+          {
+               "idioma": "en",
+               "titulo": "Hairdressing products",
+               "subtitulo": "Data to Search",
+               "codigo": "Code",
+               "descripcion": "Description",
+               "stock": "Stock",
+               "precio": "Price",
+               "nombre": "Name",
+               "apellido": "Surname",
+               "direccion": "Address",
+               "pais": "Country",
+               "correo": "E-mail"
+          },
+          {
+               "idioma": "fr",
+               "titulo": "Produits de coiffure",
+               "subtitulo": "Données à rechercher",
+               "codigo": "Code",
+               "descripcion": "La description",
+               "stock": "Stock",
+               "precio": "Prix",
+               "nombre": "Apelle",
+               "apellido": "?????",
+               "direccion": "??",
+               "pais": "??",
+               "correo": "??"
+          }
+     ]
+}
