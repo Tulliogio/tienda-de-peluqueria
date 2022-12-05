@@ -19,6 +19,17 @@
           #img {
                float: right;
           }
+
+          .form {
+               width: 100%;
+               max-width: 300px;
+               margin: 0 auto;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+
+          }
      </style>
 </head>
 
@@ -71,7 +82,7 @@
                     <input type="radio" name="idioma" value="fr" onclick="cambiaidioma('fr')"> Frances<br>
                     <button type="submit">Traducir</button>
                </form>
-               <form name="formulario" method="get" action="procesar.php">
+               <form class="form" method="get" action="procesar.php">
                     <p><label>Nombre:<input type="text" name="nombre" maxlength="15"></label></p>
                     <p><label>Appellido:<input type="text" name="appellido"></label></p>
                     <p><label>Direccion:<input type="text" name="direccion"></label></p>
